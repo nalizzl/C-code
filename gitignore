@@ -22,6 +22,7 @@ bin-release/
 *.suo
 *.db
 *.ipch
+*.txt
 Debug/
 .vs
 Release/
