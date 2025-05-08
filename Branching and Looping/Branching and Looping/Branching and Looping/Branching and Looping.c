@@ -107,9 +107,23 @@
 //	return 0;
 //}
 //100µ½200ËØÊı
-#include<stdio.h>
-int main()
-{
-	
-	return 0;
-}
+//#include<stdio.h>
+//int main()
+//{
+//	int a, b, flag;
+//	for (a = 100; a <= 200; a++)
+//	{
+//		for (b = 2, flag = 0; b < a; b++)
+//		{
+//			if (a % b == 0)
+//			{
+//				flag = 1;
+//			}
+//		}
+//		if (flag != 1)
+//		{
+//			printf("%d ", a);
+//		}
+//	}
+//	return 0;
+//}
