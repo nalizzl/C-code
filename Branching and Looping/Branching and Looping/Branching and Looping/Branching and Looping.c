@@ -127,3 +127,39 @@
 //	}
 //	return 0;
 //}
+
+//1000到2000闰年
+//#include<stdio.h>
+//int main()
+//{
+//	int a;
+//	for (a = 1000; a <= 2000; a++)
+//	{
+//		if (a % 4 == 0 || a % 100 == 0)
+//		{
+//			printf("%d ", a);
+//		}
+//	}
+//	return 0;
+//}
+
+//求两个数最大公约数
+//#include<stdio.h>
+//int main()
+//{
+//	int a, b;
+//	int tmp = 1;
+//	scanf("%d%d", &a, &b);
+//	for (; tmp != 0;)
+//	{
+//		tmp = a % b;
+//		if (tmp == 0)
+//		{
+//			break;
+//		}
+//		a = b;
+//		b = tmp;
+//	}
+//	printf("最大公约数为：%d", b);
+//	return 0;
+//}
