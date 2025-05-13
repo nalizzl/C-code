@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C Code\\C-code\\Variable length array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0085450D-D0EC-4A7E-9549-38289EA50E02}|Variable length array\\Variable length array.vcxproj|D:\\C Code\\C-code\\Variable length array\\Variable length array\\Variable length array.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0085450D-D0EC-4A7E-9549-38289EA50E02}|Variable length array\\Variable length array.vcxproj|solutionrelative:Variable length array\\Variable length array.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Variable length array.c",
+              "DocumentMoniker": "D:\\C Code\\C-code\\Variable length array\\Variable length array\\Variable length array.c",
+              "RelativeDocumentMoniker": "Variable length array\\Variable length array.c",
+              "ToolTip": "D:\\C Code\\C-code\\Variable length array\\Variable length array\\Variable length array.c",
+              "RelativeToolTip": "Variable length array\\Variable length array.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-13T16:07:42.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
