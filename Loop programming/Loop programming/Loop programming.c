@@ -3,7 +3,7 @@
 //#include <stdio.h>
 //int main() {
 //    int a, b, c;
-//    while (scanf("%d %d %d", &a, &b, &c) != EOF) { // 注意 while 处理多个 case
+//    while (scanf("%d%d%d", &a, &b, &c) != EOF) { // 注意 while 处理多个 case
 //        // 64 位输出请用 printf("%lld") to 
 //        if (a + b <= c || a + c <= b || b + c <= a)
 //        {
