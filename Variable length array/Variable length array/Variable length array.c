@@ -73,3 +73,28 @@
 //	printf("%f", sum / 10.0);
 //	return 0;
 //}
+//
+//交换数组
+//#include<stdio.h>
+//int main()
+//{
+//	printf("每行输入两个数据，分别是两个数组的元素，也是需要交换的对象：\n");
+//	int tmp, i, aa[5], bb[5];
+//	for (i = 0; i < 5; i++)
+//	{
+//		scanf("%d%d", &aa[i], &bb[i]);
+//		tmp = aa[i];
+//		aa[i] = bb[i];
+//		bb[i] = tmp;
+//	}
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("%d ", aa[i]);
+//	}
+//	printf("\n");
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("%d ", bb[i]);
+//	}
+//	return 0;
+//}
