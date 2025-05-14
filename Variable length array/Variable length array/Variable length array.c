@@ -59,3 +59,17 @@
 //    }
 //    return 0;
 //}
+// 
+//输入十个整数并输出平均值
+//#include<stdio.h>
+//int main()
+//{
+//	int i, sum, arr[10];
+//	for (i = 0, sum = 0; i < 10; i++)
+//	{
+//		scanf("%d", &arr[i]);
+//		sum += arr[i];
+//	}
+//	printf("%f", sum / 10.0);
+//	return 0;
+//}
