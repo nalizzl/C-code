@@ -98,3 +98,20 @@
 //	}
 //	return 0;
 //}
+//
+//ÄæĞòÊä³ö
+//#include <stdio.h>
+//int main() {
+//    int left, right, arr[10];
+//    for (left = 0; left < 10; left++)
+//    {
+//        scanf("%d", &arr[left]);
+//    }
+//    for (right = 9; right >= 0; right--)
+//    {
+//        printf("%d ", arr[right]);
+//    }
+//    return 0;
+//}
+//
+//
