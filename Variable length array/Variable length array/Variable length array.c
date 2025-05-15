@@ -114,4 +114,26 @@
 //    return 0;
 //}
 //
-//
+//矩阵转置（使用变长数组版本）
+//#include <stdio.h>
+//int main() {
+//    int n, m, i, j;
+//    scanf("%d%d", &n, &m);
+//    int aa[m][n];
+//    for (i = 0; i < n; i++)
+//    {
+//        for (j = 0; j < m; j++)
+//        {
+//            scanf("%d", &aa[j][i]);
+//        }
+//    }
+//    for (i = 0; i < m; i++)
+//    {
+//        for (j = 0; j < n; j++)
+//        {
+//            printf("%d ", aa[i][j]);
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
