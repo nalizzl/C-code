@@ -115,49 +115,109 @@
 //}
 //
 //矩阵转置（使用变长数组版本）
-#include <stdio.h>
-int main() {
-    int n, m, i, j;
-    scanf("%d%d", &n, &m);
-    int aa[m][n];
-    for (i = 0; i < n; i++)
-    {
-        for (j = 0; j < m; j++)
-        {
-            scanf("%d", &aa[j][i]);
-        }
-    }
-    for (i = 0; i < m; i++)
-    {
-        for (j = 0; j < n; j++)
-        {
-            printf("%d ", aa[i][j]);
-        }
-        printf("\n");
-    }
-    return 0;
-}
-//水
-//矩阵转置（使用变长数组版本）
-#include <stdio.h>
-int main() {
-    int n, m, i, j;
-    scanf("%d%d", &n, &m);
-    int aa[m][n];
-    for (i = 0; i < n; i++)
-    {
-        for (j = 0; j < m; j++)
-        {
-            scanf("%d", &aa[j][i]);
-        }
-    }
-    for (i = 0; i < m; i++)
-    {
-        for (j = 0; j < n; j++)
-        {
-            printf("%d ", aa[i][j]);
-        }
-        printf("\n");
-    }
-    return 0;
-}
+//#include <stdio.h>
+//int main() {
+//    int n, m, i, j;
+//    scanf("%d%d", &n, &m);
+//    int aa[m][n];
+//    for (i = 0; i < n; i++)
+//    {
+//        for (j = 0; j < m; j++)
+//        {
+//            scanf("%d", &aa[j][i]);
+//        }
+//    }
+//    for (i = 0; i < m; i++)
+//    {
+//        for (j = 0; j < n; j++)
+//        {
+//            printf("%d ", aa[i][j]);
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+//
+//合并数组并排序
+// 不使用变长数组的版本
+//#include <stdio.h>
+//int main() {
+//    int i, j, tmp;
+//    int arr[5], ray[6], array[11];
+//    for (i = 0; i < 5; i++)
+//    {
+//        scanf("%d", &arr[i]);
+//    }
+//    for (i = 0; i < 6; i++)
+//    {
+//        scanf("%d", &ray[i]);
+//    }
+//    for (i = 0; i < 11; i++)
+//    {
+//        if (i < 5)
+//            array[i] = arr[i];
+//        else
+//            array[i] = ray[i - 5];
+//    }
+//    for (i = 0, tmp = 0; i < 11 - 1; i++)
+//    {
+//        for (j = i; j < 11 - 1 - i; j++)
+//        {
+//            if (array[j] > array[j + 1])
+//            {
+//                tmp = array[j];
+//                array[j] = array[j + 1];
+//                array[j + 1] = tmp;
+//            }  
+//        }
+//    }
+//    i = 0;
+//    while (i < 11)
+//    {
+//        printf("%d ", array[i]);
+//        i++;
+//    }
+//    return 0;
+//}
+//
+//牛客上的变长数组版本
+//#include <stdio.h>
+//int main() {
+//    int n, m, i, j, tmp;
+//    scanf("%d%d", &n, &m);
+//    int arr[n], ray[m], array[n + m];
+//    for (i = 0; i < n; i++)
+//    {
+//        scanf("%d", &arr[i]);
+//    }
+//    for (i = 0; i < m; i++)
+//    {
+//        scanf("%d", &ray[i]);
+//    }
+//    for (i = 0; i < n + m; i++)
+//    {
+//        if (i < n)
+//            array[i] = arr[i];
+//        else
+//            array[i] = ray[i - n];
+//    }
+//    for (i = 0; i < n + m - 1; i++)
+//    {
+//        for (j = 0; j < n + m - i - 1; j++)
+//        {
+//            if (array[j] > array[j + 1])
+//            {
+//                tmp = array[j];
+//                array[j] = array[j + 1];
+//                array[j + 1] = tmp;
+//            }
+//        }
+//    }
+//    i = 0;
+//    while (i < n + m)
+//    {
+//        printf("%d ", array[i]);
+//        i++;
+//    }
+//    return 0;
+//}
