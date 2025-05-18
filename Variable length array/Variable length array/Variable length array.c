@@ -221,3 +221,109 @@
 //    }
 //    return 0;
 //}
+
+//打印空心正方形
+//#include <stdio.h>
+//#include<string.h>
+//int main() {
+//    int a = 4, b;
+//        char arr1[5];
+//        char arr2[5];
+//        memset(arr2, 0, 5);
+//        memset(arr2, '*', 4);
+//        memset(arr1, 0, 5);
+//        arr1[0] = '*';
+//        arr1[4] = '*';
+//        while (a)
+//        {
+//            for (b = 0; b < 4; b++)
+//            {
+//                if (a == 4 || a == 1)
+//                {
+//                    printf("%c ", arr2[b]);
+//                }
+//                else
+//                {
+//                    printf("%c ", arr1[b]);
+//                }
+//            }
+//            printf("\n");
+//            a--;
+//        }
+//    return 0;
+//}
+// //有时间找找下面的代码究竟为什么在牛客网上得不到正确答案
+//#include <stdio.h>
+//#include<string.h>
+//int main() {
+//    int a, b, c;
+//    while (scanf("%d", &a) != EOF) { // 注意 while 处理多个 case
+//        char arr1[a + 1];
+//        char arr2[a + 1];
+//        memset(arr2, 0, a + 1);
+//        memset(arr2, '*', a);
+//        memset(arr1, 0, a + 1);
+//        arr1[0] = '*';
+//        arr1[a - 1] = '*';
+//        c = a;
+//        while (c)
+//        {
+//            for (b = 0; b < a; b++)
+//            {
+//                if (c == 1 || c == a)
+//                {
+//                    printf("%c ", arr2[b]);
+//                }
+//                else
+//                {
+//                    printf("%c ", arr1[b]);
+//                }
+//            }
+//            printf("\n");
+//            c--;
+//        }
+//    }
+//    return 0;
+//}
+//
+
+//在牛客网上最后提交成功版本
+//#include <stdio.h>
+//int main() {
+//    int a, b, c;
+//    while (scanf("%d", &a) != EOF) { // 注意 while 处理多个 case
+//        c = a;
+//        char arr[a][a];
+//        while (c)
+//        {
+//            for (b = 0; b < a; b++)
+//            {
+//                if (c == a || c == 1)
+//                {
+//                    arr[c - 1][b] = '*';
+//                }
+//                else
+//                {
+//                    if (b == 0 || b == a - 1)
+//                    {
+//                        arr[c - 1][b] = '*';
+//                    }
+//                    else
+//                    {
+//                        arr[c - 1][b] = ' ';
+//                    }
+//                }
+//            }
+//            c--;
+//        }
+//        for (b = 0; b < a; b++)
+//        {
+//            for (c = 0; c < a; c++)
+//            {
+//                printf("%c ", arr[b][c]);
+//            }
+//            printf("\n");
+//        }
+//    }
+//    return 0;
+//}
