@@ -1,4 +1,2 @@
 ﻿  string function.c
-D:\C Code\C-code\string function\string function\string function.c(6,6): warning C4101: “a”: 未引用的局部变量
-D:\C Code\C-code\string function\string function\string function.c(6,9): warning C4101: “b”: 未引用的局部变量
   string function.vcxproj -> D:\C Code\C-code\string function\x64\Debug\string function.exe

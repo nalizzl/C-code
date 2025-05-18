@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Storage of data in memory", "Storage of data in memory\Storage of data in memory.vcxproj", "{66D47FDA-E522-4ACE-8584-2640AC36036D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Debug|x64.ActiveCfg = Debug|x64
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Debug|x64.Build.0 = Debug|x64
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Debug|x86.ActiveCfg = Debug|Win32
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Debug|x86.Build.0 = Debug|Win32
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Release|x64.ActiveCfg = Release|x64
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Release|x64.Build.0 = Release|x64
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Release|x86.ActiveCfg = Release|Win32
+		{66D47FDA-E522-4ACE-8584-2640AC36036D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {395BA0BD-FB4E-40FF-9A4F-FED0240F8C83}
+	EndGlobalSection
+EndGlobal

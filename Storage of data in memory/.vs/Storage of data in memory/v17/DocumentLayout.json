@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C Code\\C-code\\Storage of data in memory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66D47FDA-E522-4ACE-8584-2640AC36036D}|Storage of data in memory\\Storage of data in memory.vcxproj|D:\\C Code\\C-code\\Storage of data in memory\\Storage of data in memory\\Storage of data in memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66D47FDA-E522-4ACE-8584-2640AC36036D}|Storage of data in memory\\Storage of data in memory.vcxproj|solutionrelative:Storage of data in memory\\Storage of data in memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Storage of data in memory.c",
+              "DocumentMoniker": "D:\\C Code\\C-code\\Storage of data in memory\\Storage of data in memory\\Storage of data in memory.c",
+              "RelativeDocumentMoniker": "Storage of data in memory\\Storage of data in memory.c",
+              "ToolTip": "D:\\C Code\\C-code\\Storage of data in memory\\Storage of data in memory\\Storage of data in memory.c",
+              "RelativeToolTip": "Storage of data in memory\\Storage of data in memory.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-18T04:54:35.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
