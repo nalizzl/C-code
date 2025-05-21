@@ -90,7 +90,7 @@
 //			break;
 //		case 1:
 //			game();
-//			continue;
+//			break;
 //		default:
 //			printf("输入有误，请重新输入\n");
 //		}
