@@ -83,3 +83,83 @@
 //    return 0;
 //}
 
+
+//计算斐波那契数（递归与迭代）
+//#include<stdio.h>
+////递归方式
+//int feibo1(int input)
+//{
+//	if (input <= 2)
+//		return 1;
+//	else
+//		return feibo1(input - 1) + feibo1(input - 2);
+//}
+////迭代方式
+//int feibo2(int input)
+//{
+//	if (input <= 2)
+//		return 1;
+//	int a, b, c;
+//	a = 1;
+//	b = 1;
+//	for (int count = 3; count <= input;)
+//	{
+//		c = a + b;
+//		a = b;
+//		b = c;
+//		count++;
+//	}
+//	return c;
+//}
+//int main()
+//{
+//	int input;
+//	scanf("%d", &input);
+//	//int ret = feibo1(input);
+//	int ret = feibo2(input);
+//	printf("%d ", ret);
+//	return 0;
+//}
+
+//使用递归实现计算n的k次方
+//#include<stdio.h>
+//int count_Thp(int n, int k)
+//{
+//	if (k == 0)
+//		return 1;
+//	else
+//		return n * count_Thp(n, k - 1);
+//}
+//int main()
+//{
+//	printf("计算n的k次方,输入n， k\n");
+//	int n, k;
+//	scanf("%d%d", &n, &k);
+//	int ret = count_Thp(n, k);
+//	printf("%d ", ret);
+//	return 0;
+//}
+
+////计算一个数的每位之和（递归实现）
+//#include<stdio.h>
+//int DigitSum(int n)
+//{
+//	int count = 1, i = 0;
+//	while (n / 10 != 0)
+//	{
+//		n /= 10;
+//		count++;
+//	}
+//	if (n < 9)
+//		return n;
+//	else
+//		return (n % 10) + DigitSum(n / 10);
+//}
+//int main()
+//{
+//	int n;
+//	scanf("%d", &n);
+//	int ret = DigitSum(n);
+//	printf("%d ", ret);
+//	return 0;
+//}

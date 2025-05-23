@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{4281C73C-3ADA-402E-BE37-228D34F6B29F}|Function recursion\\Function recursion.vcxproj|D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4281C73C-3ADA-402E-BE37-228D34F6B29F}|Function recursion\\Function recursion.vcxproj|solutionrelative:Function recursion\\Function recursion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "debugger_jmc.c",
+              "DocumentMoniker": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "ToolTip": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-23T15:25:46.617Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Function recursion.c",
               "DocumentMoniker": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c",
               "RelativeDocumentMoniker": "Function recursion\\Function recursion.c",
-              "ToolTip": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c",
-              "RelativeToolTip": "Function recursion\\Function recursion.c",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c*",
+              "RelativeToolTip": "Function recursion\\Function recursion.c*",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAqwJoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-21T15:11:36.121Z",
               "EditorCaption": ""
