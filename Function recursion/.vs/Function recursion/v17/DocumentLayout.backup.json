@@ -29,8 +29,7 @@
               "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
               "ViewState": "AgIAAAQAAAAAAAAAAAAjwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-23T15:25:46.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T15:25:46.617Z"
             },
             {
               "$type": "Document",
@@ -38,9 +37,9 @@
               "Title": "Function recursion.c",
               "DocumentMoniker": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c",
               "RelativeDocumentMoniker": "Function recursion\\Function recursion.c",
-              "ToolTip": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c*",
-              "RelativeToolTip": "Function recursion\\Function recursion.c*",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAqwJoAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\C Code\\C-code\\Function recursion\\Function recursion\\Function recursion.c",
+              "RelativeToolTip": "Function recursion\\Function recursion.c",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAqwK4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-21T15:11:36.121Z",
               "EditorCaption": ""

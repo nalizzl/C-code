@@ -140,20 +140,14 @@
 //	return 0;
 //}
 
-////计算一个数的每位之和（递归实现）
+//计算一个数的每位之和（递归实现）
 //#include<stdio.h>
 //int DigitSum(int n)
 //{
-//	int count = 1, i = 0;
-//	while (n / 10 != 0)
-//	{
-//		n /= 10;
-//		count++;
-//	}
 //	if (n < 9)
 //		return n;
 //	else
-//		return (n % 10) + DigitSum(n / 10);
+//		return n % 10 + DigitSum(n / 10);
 //}
 //int main()
 //{
@@ -163,3 +157,22 @@
 //	printf("%d ", ret);
 //	return 0;
 //}
+
+//打印一个数的每一位
+//#include<stdio.h>
+//int DigitSum(int n)
+//{
+//	if (n > 9)
+//	{
+//		DigitSum(n / 10);
+//	}
+//	printf("%d ", n % 10);
+//}
+//int main()
+//{
+//	int n;
+//	scanf("%d", &n);
+//	int ret = DigitSum(n);
+//	return 0;
+//}
+
