@@ -176,3 +176,34 @@
 //	return 0;
 //}
 
+//求阶乘（递归与迭代）
+//#include<stdio.h>
+////递归方法
+//int fac1(n)
+//{
+//	if (n <= 1)
+//		return 1;
+//	else
+//		return n * fac1(n - 1);
+//}
+////迭代方法
+//int fac2(n)
+//{
+//	if (n == 0)
+//		return 1;
+//	int i, mul = 1;
+//	for (i = 1; i <= n; i++)
+//	{
+//		mul *= i;
+//	}
+//	return mul;
+//}
+//int main()
+//{
+//	int n;
+//	scanf("%d", &n);
+//	//int ret = fac1(n); 递归
+//	int ret = fac2(n);
+//	printf("%d ", ret);
+//	return 0;
+//}
