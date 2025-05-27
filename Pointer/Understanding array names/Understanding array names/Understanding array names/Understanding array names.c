@@ -50,3 +50,61 @@
 //	}
 //	return 0;
 //}
+
+//判断一个字符串是否为另外一个字符串旋转而得
+//#include<stdio.h>
+//#include<string.h>
+//void reverse(char * arr1, char * arr2)
+//{
+//	for (int tmp = 0; arr1 < arr2; )
+//	{
+//		tmp = *(arr1);
+//		*(arr1) = *(arr2);
+//		*(arr2) = tmp;
+//		arr1++;
+//		arr2--;
+//	}
+//}
+//int check_rot(int len, const char * arr, char *arr3)
+//{
+//	for (int i = 1; i <= len; i++)
+//	{
+//		reverse(arr, arr + i - 1);
+//		reverse(arr + i, arr + len - 1);
+//		reverse(arr, arr + len - 1);
+//		int ret = strcmp(arr, arr3);
+//		if (ret == 0)
+//			return 1;
+//	}
+//	return 0;
+//
+//}
+//int main()
+//{
+//	char arr[] = "abcdefg";
+//	//char arr3[] = "defgabc";
+//	char arr3[] = "aaaaaaaa";//验证不是旋转而得的情况
+//	size_t len = strlen(arr);
+//	int ret = check_rot(len, arr, arr3);
+//	if (ret)
+//		printf("该arr3字符串是由arr字符串旋转而得\n");
+//	else
+//		printf("该arr3字符串并不是由arr字符串旋转而得\n");
+//	return 0;
+//}
+
+//猜凶手
+//#include<stdio.h>
+//int main()
+//{
+//	for (char killer = 'A'; killer <= 'D'; killer++)
+//	{
+//		if ((killer != 'A') + (killer == 'C') + (killer == "D") + (killer != "D") == 3)
+//		{
+//			printf("凶手是：%c\n", killer);
+//		}
+//	}
+//	return 0;
+//}
+
+//
