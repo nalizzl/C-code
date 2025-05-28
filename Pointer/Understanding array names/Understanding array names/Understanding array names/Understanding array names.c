@@ -107,4 +107,30 @@
 //	return 0;
 //}
 
-//
+//打印杨辉三角
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[100][100] = { 0, 1 };
+//	int r = 1, c = 1, n;
+//	printf("请输入要打印的杨辉三角行数：\n");
+//	scanf("%d", &n);
+//	for (; r <= n; r++)
+//	{
+//		for (int i = 0; i < n - r; i++)
+//		{
+//			printf("  ");
+//		}
+//		arr[r][1] = 1;
+//		for (c = 1; c <= r; c++)
+//		{
+//			if (r == c)
+//				arr[r][c] = 1;
+//			else
+//				arr[r][c] = arr[r - 1][c - 1] + arr[r - 1][c];
+//			printf("%5d", arr[r][c]);
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}

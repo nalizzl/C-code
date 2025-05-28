@@ -1,4 +1,2 @@
 ﻿  Understanding array names.c
-D:\C Code\C-code\Pointer\Understanding array names\Understanding array names\Understanding array names\Understanding array names.c(102,51): warning C4047: “==”:“int”与“char [2]”的间接级别不同
-D:\C Code\C-code\Pointer\Understanding array names\Understanding array names\Understanding array names\Understanding array names.c(102,69): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
   Understanding array names.vcxproj -> D:\C Code\C-code\Pointer\Understanding array names\Understanding array names\x64\Debug\Understanding array names.exe
