@@ -134,3 +134,39 @@
 //	}
 //	return 0;
 //}
+
+//杨氏矩阵查找算法
+//#include<stdio.h>
+//int Y_search(int arr[][4], int* row, int* col, int m)
+//{
+//	int i = 0, j = 3;
+//	if (m < arr[0][0] || m > arr[3][3])
+//		return 0;
+//	while (i < 4 && j >= 0)
+//	{
+//		if (m > arr[i][j])
+//			i++;
+//		else if(m < arr[i][j])
+//			j--;
+//		else
+//		{
+//			*row = i;
+//			*col = j;
+//			return 1;
+//		}
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	int arr[4][4] = { {1,5,7,9},{4,6,10,15},{8,11,12,19},{14,16,18,21} };
+//	int row = 4, col = 4, n;
+//	printf("请输入要查找的数：\n");
+//	scanf("%d", &n);
+//	int ret = Y_search(arr, &row, &col, n);
+//	if (ret)
+//		printf("找到了，下标是：%d, %d\n", row, col);
+//	else
+//		printf("找不到\n");
+//	return 0;
+//}
