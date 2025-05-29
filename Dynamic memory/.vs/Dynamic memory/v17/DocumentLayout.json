@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C Code\\C-code\\Dynamic memory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BEAD2B5-834F-4C5F-B546-126D84DA8948}|Dynamic memory\\Dynamic memory.vcxproj|D:\\C Code\\C-code\\Dynamic memory\\Dynamic memory\\Dynamic memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5BEAD2B5-834F-4C5F-B546-126D84DA8948}|Dynamic memory\\Dynamic memory.vcxproj|solutionrelative:Dynamic memory\\Dynamic memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dynamic memory.c",
+              "DocumentMoniker": "D:\\C Code\\C-code\\Dynamic memory\\Dynamic memory\\Dynamic memory.c",
+              "RelativeDocumentMoniker": "Dynamic memory\\Dynamic memory.c",
+              "ToolTip": "D:\\C Code\\C-code\\Dynamic memory\\Dynamic memory\\Dynamic memory.c",
+              "RelativeToolTip": "Dynamic memory\\Dynamic memory.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-29T15:35:50.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
