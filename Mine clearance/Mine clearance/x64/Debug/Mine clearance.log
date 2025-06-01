@@ -1,3 +1,2 @@
 ﻿  Mine clearance.c
-D:\C Code\C-code\Mine clearance\Mine clearance\Mine clearance.c(23,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   Mine clearance.vcxproj -> D:\C Code\C-code\Mine clearance\x64\Debug\Mine clearance.exe
