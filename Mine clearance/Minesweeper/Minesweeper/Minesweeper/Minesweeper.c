@@ -8,3 +8,14 @@ void menu()
 	printf("*****0.exit  **********\n");
 	printf("***********************\n");
 }
+
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	while (n--)
+	{
+		printf("%d ", n);
+	}
+	return 0;
+}
