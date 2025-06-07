@@ -56,4 +56,24 @@
 //	return 0;
 //}
 
+//Ä£ÄâÊµÏÖstrcpy
+//#include<stdio.h>
+//#include<assert.h>
+//char* my_strcpy(char* dest, char* str)
+//{
+//	assert(dest && str);
+//	char* ret = dest;
+//	while (*dest++ = *str++);
+//	return ret;
+//}
+//
+//int main()
+//{
+//	char ary1[] = "hello bit";
+//	char ary2[20] = { 0 };
+//	char* arr = my_strcpy(ary2, ary1);
+//	printf(arr);
+//	return 0;
+//}
+
 //
