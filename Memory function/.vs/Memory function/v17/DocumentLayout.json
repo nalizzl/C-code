@@ -29,7 +29,8 @@
               "RelativeToolTip": "..\\String function\\string function\\string function.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-18T11:43:05.693Z"
+              "WhenOpened": "2025-05-18T11:43:05.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -39,7 +40,7 @@
               "RelativeDocumentMoniker": "Memory function\\Memory function.c",
               "ToolTip": "D:\\C Code\\C-code\\Memory function\\Memory function\\Memory function.c",
               "RelativeToolTip": "Memory function\\Memory function.c",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-18T11:41:58.849Z",
               "EditorCaption": ""
