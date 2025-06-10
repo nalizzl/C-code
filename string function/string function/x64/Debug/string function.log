@@ -1,2 +1,8 @@
 ﻿  string function.c
+D:\C Code\C-code\string function\string function\string function.c(85,3): warning C4090: “return”: 不同的“const”限定符
+D:\C Code\C-code\string function\string function\string function.c(103,7): warning C4090: “=”: 不同的“const”限定符
+D:\C Code\C-code\string function\string function\string function.c(104,7): warning C4090: “=”: 不同的“const”限定符
+D:\C Code\C-code\string function\string function\string function.c(108,3): warning C4090: “return”: 不同的“const”限定符
+D:\C Code\C-code\string function\string function\string function.c(87,8): warning C4090: “初始化”: 不同的“const”限定符
+D:\C Code\C-code\string function\string function\string function.c(88,8): warning C4090: “初始化”: 不同的“const”限定符
   string function.vcxproj -> D:\C Code\C-code\string function\x64\Debug\string function.exe

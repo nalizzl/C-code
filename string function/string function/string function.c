@@ -76,4 +76,49 @@
 //	return 0;
 //}
 
+//模拟实现strstr
+//#include<stdio.h>
+//#include<assert.h>
+//char* my_strstr(const char* num1, const char* num2)
+//{
+//	if (*num2 == '\0')
+//		return num1;
+//	assert(num1 && num2);
+//	char* p1 = num1;
+//	char* p2 = num2;
+//	while (*p1 != *p2)
+//	{
+//		p1++;
+//	}
+//	num1 = p1;
+//	while (*p2 != '\0' && *p1 != '\0')
+//	{
+//		if (*p1 == *p2)
+//		{
+//			p1++;
+//			p2++;
+//		}
+//		else
+//		{
+//			p1 = ++num1;
+//			p2 = num2;
+//		}
+//	}
+//	if (*num1 != '\0')
+//		return num1;
+//	else
+//		return NULL;
+//}
+//int main()
+//{
+//	char ary1[] = "hello bit";
+//	char ary2[] = "llo b";
+//	char* ret = my_strstr(ary1, ary2);
+//	if (ret != NULL)
+//		printf("查找的字符存在：%s\n", ret);
+//	else
+//		printf("查找的字符不存在\n");
+//	return 0;
+//}
+
 //
